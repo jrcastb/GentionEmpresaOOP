@@ -1,0 +1,42 @@
+Diseñar un sistema de gestión de empresas, departamentos, empleados, clientes
+Ubicacion
+    *Calle
+    *Numero (de la calle)
+    *Codigo postal
+    *Ciudad
+    *Localidad (barrio)
+Persona
+    *Id
+    *Documento
+    *Nombre
+    *Apellido
+    *Balance
+    *edad
+    *estadoCivil
+Empleado
+    *Sueldo
+    *Cargo
+    *Ubicacion
+    *Departamento
+Cliente
+    *Compañia (con la que se adquiere algún servicio o alguna compra)
+    *Empleado (El empleado que se encarga de atender al cliente)
+
+Compañia
+    *Nombre
+    *NIT
+    *Departamentos
+    *Ubicacion
+
+Departamento
+    *Nombre
+    *identificador
+    *Categoria
+    *Compañia
+    *Empleados (Lista)
+
+Contrato
+    *Fecha de creacion
+    *Empleado
+    *Compañia
+    *Monto
